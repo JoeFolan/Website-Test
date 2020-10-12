@@ -1,0 +1,77 @@
+body {
+  margin:0;
+  background: #f7f9fb;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+
+}
+
+.Contact_title_Container{
+  width:80%;
+  margin: 0 auto;
+}
+
+header{
+  background: #242582
+}
+
+header::after{
+  content:  '';
+  display: table;
+  clear: both;}
+
+.Contact_title{
+  float: left;
+  color: white;
+}
+
+nav{
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding:0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left:20px;
+  padding-top: 30px;
+
+  position: relative;
+}
+
+nav a {
+  color:white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color:blue;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height:5px;
+  width:100%;
+  background color:black;
+}
+
+.my_results{
+  grid-template-areas:
+  "a_level_table gcse-table"
+}
+.a_level_table{
+  border-style: solid;
+  border-color: black;
+  margin:25px;}
+
+.gcse_table{
+  border-style: solid;
+  border-color: black;
+  margin:25px;
+}
